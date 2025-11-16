@@ -1,1 +1,86 @@
-/* Add your own styles */
+/* --- General Page Styling --- */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 20px;
+    background: #ffeef6;           /* light soft pink background */
+}
+
+/* Header */
+header h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #d63384;                /* deep rose pink */
+}
+
+/* --- Controls Section --- */
+#controls {
+    margin-bottom: 20px;
+}
+
+#controls input[type="search"] {
+    padding: 10px;
+    font-size: 14px;
+    width: 240px;
+    border: 2px solid #f7a8c9;     /* soft pink border */
+    border-radius: 6px;
+    background: #ffffff;
+    transition: 0.3s;
+}
+
+#controls input[type="search"]:focus {
+    border-color: #d63384;
+    outline: none;
+    box-shadow: 0 0 5px #f7a8c9;
+}
+
+#controls button {
+    padding: 10px 16px;
+    background-color: #d63384;     /* rose pink */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+#controls button:hover {
+    background-color: #b52b6d;     /* darker pink on hover */
+}
+
+/* --- Table Styling --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(214, 51, 132, 0.15);   /* pink shadow */
+}
+
+/* Table Header */
+thead {
+    background-color: #f7a8c9;     /* soft cotton-candy pink */
+    color: #ffffff;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #f1c1d9;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* Even rows = pale pink */
+tbody tr:nth-child(even) {
+    background-color: #fff5fa;
+}
+
+/* Hover effect */
+tbody tr:hover {
+    background-color: #ffe0ef;     /* slightly darker pink hover */
+    transition: 0.2s;
+}
